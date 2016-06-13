@@ -1,29 +1,350 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport"    content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="">
-		
-		<title>Cheers Cut USA</title>
-		
-		<!-- Bootstrap itself -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-		<link rel="stylesheet" href="http://silviomoreto.github.io/bootstrap-select/bootstrap-select.min.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-		<!-- Custom styles -->
-		<link rel="stylesheet" href="assets/css/style.css">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Cheers Cut - Fried Chicken and Seafood</title>
 
+    <!-- Bootstrap Core CSS -->
+    <link href="assets/css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <!-- Retina.js - Load first for faster HQ mobile images. -->
+    <script src="assets/js/plugins/retina/retina.min.js"></script>
+    <!-- Font Awesome -->
+    <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-		<link rel="icon" type="image/png" href="assets/images/logo.png">
+    <link rel="icon" type="image/png" href="assets/img/cheerscut/logo.png">
 
-		<!-- Fonts -->
-		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-		<link href='http://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet' type='text/css'>
-	</head>
+    <!-- Default Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,600,500,700,800,900' rel='stylesheet' type='text/css'>
+    <!-- Modern Style Fonts (Include these is you are using body.modern!) -->
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Cardo:400,400italic,700' rel='stylesheet' type='text/css'>
+    <!-- Vintage Style Fonts (Include these if you are using body.vintage!) -->
+    <link href='http://fonts.googleapis.com/css?family=Sanchez:400italic,400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Cardo:400,400italic,700' rel='stylesheet' type='text/css'>
+    <!-- Plugin CSS -->
+    <link href="assets/css/plugins/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/plugins/owl-carousel/owl.theme.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/plugins/owl-carousel/owl.transitions.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/plugins/magnific-popup.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/plugins/background.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/plugins/animate.css" rel="stylesheet" type="text/css">
+    <!-- Vitality Theme CSS -->
+    <!-- Uncomment the color scheme you want to use. -->
+    <!-- <link href="assets/css/vitality-red.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="assets/css/vitality-aqua.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="assets/css/vitality-blue.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="assets/css/vitality-green.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="assets/css/vitality-orange.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="assets/css/vitality-pink.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="assets/css/vitality-purple.css" rel="stylesheet" type="text/css"> -->
+    <link href="assets/css/vitality-tan.css" rel="stylesheet" type="text/css">
+    <!-- <link href="assets/css/vitality-turquoise.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="assets/css/vitality-yellow.css" rel="stylesheet" type="text/css"> -->
+    <!-- IE8 support for HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+<!-- Alternate Body Classes: .modern and .vintage -->
 
-	<body>
-		<img src="img/comingSoon.jpg" alt="coming soon">
+<body id="page-top" class="modern">
+    <!-- Navigation -->
+    <!-- Note: navbar-default and navbar-inverse are both supported with this theme. -->
+    <nav class="navbar navbar-inverse navbar-fixed-top navbar-expanded">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <img src="assets/img/cheerscut/tagline_01.png" class="img-responsive" alt="">
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a class="page-scroll" href="./index.html"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="./index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="./opportunity.html">Opportunities</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="./press.html">Press</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="./menu.html">Menu</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- Instructions: Set your background image using the URL below. -->
+    <header style="background-image: url('assets/img/cheerscut/bg-top2.png')">
+        <div class="intro-content">
+            <img src="assets/img/cheerscut/logo1.png" class="img-responsive img-centered" alt="">
+        </div>
+        <div class="scroll-down">
+            <a class="btn page-scroll" href="#values"><i class="fa fa-angle-down fa-fw"></i></a>
+        </div>
+    </header>
+    <section id="values" class="services">
+        <div class="container">
+            
+            <div class="row content-row">
+                <img src="assets/img/cheerscut/headers/1.png" class="img-responsive img-centered" alt="">
+                <center><h3>About Cheers Cut</h3></center>                
+
+                <hr class="colored">
+                <div class="col-md-4 wow fadeIn" data-wow-delay=".2s">
+                    
+                    <div class="media">
+                        <div class="pull-left">
+                            <i class="fa fa-shopping-cart"></i>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">风云配料</h4>
+                            <h4 class="media-heading">Ingredients</h3>
+                        
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeIn" data-wow-delay=".4s">
+                    <div class="media">
+                        <div class="pull-left">
+                            <i class="fa fa-cutlery"></i>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">风云技术</h3>
+                            <h4 class="media-heading">Technique</h4>
+                        <!--
+                            <ul>
+                                <li><em>Traditional preparation</em>
+                                </li>
+                                <li><em>Classic combinations</em>
+                                </li>
+                                <li><em>Complex flavor profiles</em>
+                                </li>
+                                <li><em>Hygenic and sanitary</em>
+                                </li>
+                            </ul>
+                        -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeIn" data-wow-delay=".6s">
+                    <div class="media">
+                        <div class="pull-left">
+                            <i class="fa fa-users"></i>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">风云社区</h3>
+                            <h4 class="media-heading">Community</h4>
+                        <!--
+                            <ul>
+                                <li><em>Bakery rewards program</em>
+                                </li>
+                                <li><em>Private events</em>
+                                </li>
+                                <li><em>Personal catering menus</em>
+                                </li>
+                                <li><em>Nightly community specials</em>
+                                </li>
+                            </ul>
+                        -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="row text-center">
+                <div class="col-lg-12 wow fadeIn">
+
+                    <p>
+                        『我都不能接受了！消費者怎麼能接受！』 完全不能接受雞排拍拍打打，加工成猶如薄片般的交到消費者手中，這是赤炸風雲一代目楊秝睿的堅持。
+
+                        楊大哥在2006年初的夏天，利用南方澳產地直送的海鮮，研發八種獨特海鮮炸物，同時與台灣後山在地養雞戶合作，特製醬料加上鮮嫩多汁、厚實飽滿的超大雞排，讓他既使身處在羅東夜市外的巷弄內，也能大排長龍。
+                    </p>
+                    <blockquote>Our Taiwanese-inspired cuisine features flavorful, fresh dishes that deliver an unforgettable experience to your taste buds. We revolve our business around the goal of providing our customers with quality food and service. The menu features a variety of selections, including our famous crispy fried chicken and seafood dishes cooked to perfection, as well as other recipes ranging from bento boxes to noodles. Made with fresh, local ingredients and carefully hand selected and tested, our food will guarantee quality to provide our customers with the best experience possible.</blockquote>
+
+                     <a class="btn btn-outline-dark" href="#portfolioModal11" href="#portfolioModal1" data-toggle="modal">公司历程</a>
+                </div>
+            </div>
+           
+            
+        </div>
+    </section>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/cheerscut/CheersCut_header_tint.jpg')">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <blockquote>
+
+                                『我都不能接受了！消費者怎麼能接受！』
+                            </blockquote>
+                            <p align="left">
+                                完全不能接受雞排拍拍打打，加工成猶如薄片般的交到消費者手中，這是赤炸風雲一代目楊秝睿的堅持。
+ 
+                                楊大哥在2006年初的夏天，利用南方澳產地直送的海鮮，研發八種獨特海鮮炸物，同時與台灣後山在地養雞戶合作，特製醬料加上鮮嫩多汁、厚實飽滿的超大雞排，讓他既使身處在羅東夜市外的巷弄內，也能大排長龍。
+
+                                雞排好吃，不是穩佔市場的先機，雞排超大，也無法成為獨特的代表。邊吃邊換氣的雞排旋風才是赤炸風雲的特色。
+                            </p>
+                            
+                            <p>
+                                首創12盎司雞排及研究團隊不斷的研發創新及技術上的突破，陸續開發出二十餘項獨創炸物產品，在2008年正式更名為【赤炸風雲】進駐羅東夜市，因產品獨具特色及美味優勢，火速竄紅成為羅東夜市必點的排隊美食小吃，2011年因應消費者需求，在台灣展店已多達30餘家。
+                            </p>
+                            <p>
+                                在一代目奠定良好的口碑與特色風味後，現在二代目是由曾任跨國精品行銷總監的黃泰勳領軍，運用過去成功行銷經驗，同時結合一代目努力耕耘的果實，將【赤炸風雲】更深耕國人心中，並且推向國際放眼世界。
+                            </p>
+                            <p>
+                                2014年赤炸風雲在消費者引領企盼下進駐士林夜市，這是台灣國內、外觀光客指名必遊景點之一，帶著"超大份量"的風潮，廣受國內、外饕客的喜愛，並在同年七月份簽訂澳洲區域代理、十一月更與中國第一大雞肉供應商，聖農集團(上市代碼:002299)旗下樂美隆餐飲集團簽訂中國大陸特約代理，進一步將12盎司超大雞排邁進國際。
+                            </p>
+                            
+                            <p>
+                                2015年1月1日正式走向海外，在福州地區隆重開幕赤炸風雲海外分店『師大店』、『達明店』，同時成為大陸地區最火紅的話題，受到新聞媒體與各界熱烈討論，同年三月在澳洲雪梨Chatswood Interchange開設旗艦店，提供更多樣化餐點及更精緻服務，完全征服西方人的味蕾，赤炸風雲-國際連鎖潮流炸物將繼續襲捲全世界。
+                            </p>
+                            <p>
+                        </div>
+                        <div class="col-lg-12">
+                            
+                        </div>
+                        <div class="col-lg-8 col-lg-offset-2">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <aside class="cta-quote" style="background-image: url('assets/img/cheerscut/food/chicken.jpg');">
+        <div class="container wow fadeIn">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <span class="quote">雞排好吃，不是穩佔市場的先機，雞排超大，也無法成為獨特的代表。邊吃邊換氣的雞排旋風才是赤炸風雲的特色</span>
+                    
+                    <hr class=" colored">
+
+                    <p>Truly great food is a combination of quality ingredients, creativity, and attention to detail.</p>
+                    <hr class=" colored">
+                    <br>
+                    <a class="btn btn-outline-light page-scroll" href="./menu.html">Browse our menu</a>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <section class="cta-form bg-dark">
+        <div class="container text-center">
+            <h3>Find us on social media!</h3>
+            <hr class="colored">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                     <ul class="list-inline">
+                        <li><a href="https://www.facebook.com/cheerscutus/"><i class="fa fa-facebook fa-fw fa-2x"></i>
+                            <br><strong>Cheers Cut</strong></a>
+                            
+                        </li>
+
+                        <li><a href="https://www.instagram.com/cheerscutofficial/"><i class="fa fa-instagram fa-fw fa-2x"></i>
+                            <br><strong>@cheerscutofficial</strong></a>
+                        </li>
+
+                        <li><a href="https://twitter.com/CheersCut"><i class="fa fa-twitter fa-fw fa-2x"></i>
+                            <br><strong>@CheersCut</strong></a>
+                            
+                        </li>
+                       
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--
+    <a href="https://wrapbootstrap.com/theme/vitality-multipurpose-one-page-theme-WB02K3KK3" class="btn btn-block btn-full-width">Buy Vitality Now!</a>
+    -->
+    <footer class="footer" style="background-image: url('assets/img/cheerscut/map.PNG')">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-4 contact-details">
+                    <h4><i class="fa fa-phone"></i> Call</h4>
+                    <p>917-651-1666</p>
+                </div>
+                <div class="col-md-4 contact-details">
+                    <h4><i class="fa fa-map-marker"></i> Visit</h4>
+                    <p><a href="https://www.google.com/maps/place/New+World+Mall/@40.7593769,-73.8312462,17z/data=!3m1!4b1!4m5!3m4!1s0x89c26011e0dc38c1:0x2c054b5606e54f7d!8m2!3d40.7593729!4d-73.8290575">
+                        New World Mall Food Court
+                        <br>136-20 Roosevelt Ave. Suite #3
+                        <br>Flushing, NY 113524</a></p>
+                </div>
+                <div class="col-md-4 contact-details">
+                    <h4><i class="fa fa-envelope"></i> Email</h4>
+                    <p><a href="mailto:mail@example.com">webcheerscut@gmail.com</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row social">
+                <div class="col-lg-12">
+                    <ul class="list-inline">
+                        <li><a href="https://www.facebook.com/cheerscutus/"><i class="fa fa-facebook fa-fw fa-2x"></i></a>
+                        </li>
+                        <li><a href="https://twitter.com/CheersCut"><i class="fa fa-twitter fa-fw fa-2x"></i></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/cheerscutofficial/"><i class="fa fa-instagram fa-fw fa-2x"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row copyright">
+                <div class="col-lg-12">
+                    <p class="small">&copy; 2016 Cheers Cut</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Core Scripts -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap/bootstrap.min.js"></script>
+    <!-- Plugin Scripts -->
+    <script src="assets/js/plugins/jquery.easing.min.js"></script>
+    <script src="assets/js/plugins/classie.js"></script>
+    <script src="assets/js/plugins/cbpAnimatedHeader.js"></script>
+    <script src="assets/js/plugins/owl-carousel/owl.carousel.js"></script>
+    <script src="assets/js/plugins/jquery.magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/plugins/background/core.js"></script>
+    <script src="assets/js/plugins/background/transition.js"></script>
+    <script src="assets/js/plugins/background/background.js"></script>
+    <script src="assets/js/plugins/jquery.mixitup.js"></script>
+    <script src="assets/js/plugins/wow/wow.min.js"></script>
+    <script src="assets/js/contact_me.js"></script>
+    <script src="assets/js/plugins/jqBootstrapValidation.js"></script>
+    <!-- Vitality Theme Scripts -->
+    <script src="assets/js/vitality.js"></script>
+</body>
 
 </html>
